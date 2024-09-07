@@ -9,7 +9,7 @@ versions:
 
 # Sphinx configuration
 sphinx:
-  configuration: docs/conf.py  # Path to your conf.py
+  configuration: docs/source/conf.py  # Path to your conf.py
 
 # Python configuration for installing dependencies
 python:

@@ -1,3 +1,6 @@
 sphinx
+furo
 sphinx_rtd_theme
 sphinx_toolbox
+sphinxcontrib-bibtex
+sphinx_math_dollar

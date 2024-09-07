@@ -1,19 +1,16 @@
 version: 2
 
-# # Define the versions (branches/tags) to build
-# versions:
-#   only:
-#     - main  # The main branch of your code
-#     - stable  # You can tag a stable version
-#     - v0.5.0  # Example tag for version 0.5.0
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.10"
 
-# Sphinx configuration
 sphinx:
   configuration: docs/source/conf.py  # Path to your conf.py
 
-# Python configuration for installing dependencies
-python:
-  install:
-    - method: pip
-      path: .
-    - requirements: docs/requirements.txt  # Ensure you have a requirements file for Sphinx extensions
+# # Python configuration for installing dependencies
+# python:
+#   install:
+#     - method: pip
+#       path: .
+#     - requirements: docs/requirements.txt  # Ensure you have a requirements file for Sphinx extensions

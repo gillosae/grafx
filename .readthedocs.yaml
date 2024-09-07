@@ -8,9 +8,9 @@ build:
 sphinx:
   configuration: sphinx-doc/source/conf.py  # Path to your conf.py
 
-# # Python configuration for installing dependencies
-# python:
-#   install:
-#     - method: pip
-#       path: .
-#     - requirements: docs/requirements.txt  # Ensure you have a requirements file for Sphinx extensions
+
+python:
+  install:
+    - method: pip
+      path: .
+    - requirements: docs/requirements.txt  # Ensure the correct path to requirements.txt
